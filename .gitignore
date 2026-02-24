@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Zephyr / nRF Connect SDK (NCS) build outputs (in-tree or out-of-tree)
+build/
+**/build/
+out/
+**/out/
+
+# CMake / Ninja artifacts (if generated outside build/ for any reason)
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+**/.ninja_deps
+**/.ninja_log
+**/build.ninja
+
+# Zephyr generated files
+**/zephyr/.config
+**/zephyr/.config.old
+**/zephyr/zephyr.dts
+**/zephyr/zephyr.dts.pre
+**/zephyr/zephyr.dts.d
+**/zephyr/zephyr.map
+**/zephyr/zephyr_final.map
+**/zephyr/edt.pickle
+**/zephyr/runners.yaml
+**/zephyr_settings.txt
+**/zephyr_modules.txt
+**/sysbuild_modules.txt
+
+# West workspace metadata (if you run west init here)
+.west/
+
+# Avoid accidentally committing nested git dirs if present
+firmware/**/.git/

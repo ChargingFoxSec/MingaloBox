@@ -1,0 +1,7 @@
+gp2040-wireless-hitbox
+Copyright (c) 2026 ChargingFoxSec and contributors
+
+This repository includes third-party materials under different terms:
+- firmware/controller and firmware/dongle: Nordic Semiconductor ASA, LicenseRef-Nordic-5-Clause
+  (see LICENSES/LicenseRef-Nordic-5-Clause.txt)
+
